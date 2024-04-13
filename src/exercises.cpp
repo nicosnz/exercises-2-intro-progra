@@ -30,10 +30,10 @@ int exercise_6(int n) {
     expected= expected + n%10;
     n= n/10;
  }
- cout<<expected<<endl;
+ 
 
 
-  return 0;
+  return expected;
 }
 
 void exercise_7(int n) {
