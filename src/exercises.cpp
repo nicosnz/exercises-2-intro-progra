@@ -25,14 +25,13 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  int suma=0;
-  while (n>0){
-    
-    suma+=n%10;
-    n=n/10;
+ suma=0
+ while (n>0){
+  suma+=n%10;
+  n= n/10;
+ }
+ cout<<suma<<endl;
 
-  }
-  cout<<suma;
   return 0;
 }
 
