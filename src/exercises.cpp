@@ -25,12 +25,13 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
- suma=0
+ const auto expected=0
  while (n>0){
-  suma+=n%10;
+  expected +=n%10;
   n= n/10;
  }
- cout<<suma<<endl;
+ cout<<actual<<endl;
+ cout<<expected<<endl;
 
   return 0;
 }
