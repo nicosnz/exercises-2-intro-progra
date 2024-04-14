@@ -133,25 +133,16 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  int binario[8];
-
-  if(decimal==0){
-    cout<<"0"<<endl;
-
-  }
-  else if(decimal==1){
-    cout<<"1"<<endl;
-  }
-
-  else{
-     for(int i=0;i<8;i++){
-      binario[i]=decimal%2;
+  unsigned resto,cont=0,numBin=0;
+  
+  
+  while(decimal>0){
+      resto=decimal%2;
       decimal/=2;
-      
+      numBin+=resto*pow(10,cont);
+      cont++;
   }
-  for(int i=7;i>=0;i--){
-      cout<<binario[i]<<endl;;
-  }
+  cout<<numBin<<endl;
   
 }
 
