@@ -30,9 +30,6 @@ int exercise_6(int n) {
     expected= expected + n%10;
     n= n/10;
  }
- 
-
-
   return expected;
 }
 
@@ -41,7 +38,28 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+    string sinespacio;
+    string resultante;
+    int i=0;
+    
+    
+    for(i=0;i<s.length();i++){
+        if(s[i]!=' '){
+            sinespacio+=s[i];
+        }
+        
+    }
+    
+    for(i=sinespacio.size()-1;i>=0;i--){
+        resultante+=sinespacio[i];
+    }
+    if(sinespacio==resultante){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
+
 }
 
 void exercise_9(string s) {
