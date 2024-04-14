@@ -85,13 +85,13 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-    string n=to_string(n);
+    string s=to_string(n);
     string sinespacio;
     string resultante;
     int i=0;
     
     
-    for(i=0;i<n.length();i++){
+    for(i=0;i<s.length();i++){
         if(s[i]!=' '){
             sinespacio+=s[i];
         }
