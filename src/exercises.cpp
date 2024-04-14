@@ -85,8 +85,29 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+    string n=to_string(n);
+    string sinespacio;
+    string resultante;
+    int i=0;
+    
+    
+    for(i=0;i<n.length();i++){
+        if(s[i]!=' '){
+            sinespacio+=s[i];
+        }
+        
+    }
+    
+    for(i=sinespacio.size()-1;i>=0;i--){
+        resultante+=sinespacio[i];
+    }
+    if(sinespacio==resultante){
+        return "Es palindrome";
+    }
+    else{
+        return "No es palindrome";
+    }
+  
 }
 
 void exercise_15(int decimal) {
