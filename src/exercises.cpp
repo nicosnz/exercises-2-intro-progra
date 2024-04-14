@@ -150,7 +150,7 @@ void exercise_15(int decimal) {
       
   }
   for(int i=7;i>=0;i--){
-      cout<<binario[i];
+      cout<<binario[i]<<endl;;
   }
   
 }
