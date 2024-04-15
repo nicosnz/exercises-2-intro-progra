@@ -13,15 +13,19 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-   for(int i=0;i<s1.size();i++){
-        if(s1[i]==1){
-            cout<<"Om-nom-nom :P"<<endl;
+  //string torta;
+   //for(int i=0;i<10;i++){
+        //if(s1[i]==1){
+            //cout<<"Om-nom-nom :P"<<endl;
+            //torta+="Om-nom-nom :P\n"
             
         }
-        else if(s1[i]==0){
-            cout<<"No cake :("<<endl;
-            break;
+        //else if(s1[i]==0){
+            //cout<<"No cake :("<<endl;
+           //torta+="No cake :(\n"
+            //break;
         }
+        
    }
 }
 
@@ -61,7 +65,15 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+  double suma=0;
+   
+    
+    for(int i=1;i<=n;i++){
+        suma+= pow(-1,i+1)/i;
+        
+        
+    }
+    cout<<suma<<endl;
 }
 
 void exercise_8(string s) {
