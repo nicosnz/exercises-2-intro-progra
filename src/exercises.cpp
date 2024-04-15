@@ -22,7 +22,7 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   int visitasRefri=0
-  for(int i=0;i<s1.size();i++ && visitasRefri<10;){
+  for(int i=0;i<s1.size() && visitasRefri<10;  i++;){
         if(s1[i]=='1'){
             cout<<"Om-nom-nom :P"<<endl;
             visitasRefri++;  
