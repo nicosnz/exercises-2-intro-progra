@@ -16,10 +16,38 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+   int d = doc.size();
+    string doc_word;
+    int i=0;
+    while(i<=doc_size1){
+        char doc_char = doc[i];
+
+        if(doc_char==' '|| i==doc_size1 && doc != ""){
+            cout<< '[' << doc_word << ']' << endl;
+            doc_word ="";
+
+        }else {
+            doc_word = doc_word + doc_char;
+        }
+        ++i;
+    }
 }
 
 void exercise_3(string s1) {
+  for(int i=0;i<s1.size;i++){
+        if(s1[i]=='1'){
+            cout<<"Om-nom-nom :P"<<endl;
+            
+            
+        }
+        else if(s1[i]=='0'){
+            cout<<"No cake :("<<endl;
+           
+            break;
+        }
+        
+   }
+}
 }
 
 void exercise_4(int n) {
