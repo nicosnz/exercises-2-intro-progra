@@ -19,7 +19,7 @@ void exercise_3(string s1) {
             
         }
         else if(s1[i]==0){
-            cout<<"No cake"<<endl;
+            cout<<"No cake :("<<endl;
             break;
         }
    }
