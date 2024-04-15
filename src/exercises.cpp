@@ -25,7 +25,7 @@ void exercise_3(string s1) {
   for(int i=0;i<s1.size();i++ && visitasRefri<10;){
         if(s1[i]=='1'){
             cout<<"Om-nom-nom :P"<<endl;
-            visitas++;  
+            visitasRefri++;  
             
         }
         else if(s1[i]=='0'){
