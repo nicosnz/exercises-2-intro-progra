@@ -22,7 +22,7 @@ void exercise_3(string s1) {
             cout<<"No cake"<<endl;
             break;
         }
-     
+   }
 }
 
 void exercise_4(int n) {
