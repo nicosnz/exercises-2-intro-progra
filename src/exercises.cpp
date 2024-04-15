@@ -21,10 +21,11 @@ void exercise_2(string s1) {
 
 
 void exercise_3(string s1) {
-  for(int i=0;i<s1.size();i++){
+  int visitasRefri=0
+  for(int i=0;i<s1.size();i++ && visitas<10;){
         if(s1[i]=='1'){
             cout<<"Om-nom-nom :P"<<endl;
-            
+            visitas++;  
             
         }
         else if(s1[i]=='0'){
@@ -176,7 +177,14 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+  int cociente = 0;
+  int residuo = 0;
+  while (dividendo >= divisor) {
+  dividendo -= divisor;
+  cociente++;
+  } 
+residuo = dividendo;
+cout << cociente << " " << residuo << endl;
 }
 
 void exercise_17(int n) {
