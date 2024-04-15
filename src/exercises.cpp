@@ -5,6 +5,13 @@
 using namespace std;
 
 void exercise_1(string s1) {
+   int index = 0;
+  for(int i = 0; i < s1.size(); i++) {
+    if(s1[i] == ' '){
+      cout<< i << endl;
+    }
+  }
+  cout<< s1.size() << endl;
  
 }
 
