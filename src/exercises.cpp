@@ -36,8 +36,8 @@ void exercise_2(string s1) {
             inicioPalabra=i+1;
    
 }
-
-
+   }
+}
 void exercise_3(string s1) {
  
 }
@@ -66,7 +66,26 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  for(int a=1;a<n;a++){
+        cout<<"    ";
+    }
+    
+    for(int i=1;i<=k;i++){
+        cout<<i;
+        if(i<10){
+            cout<<"   ";
+        } 
+        else{
+            cout<<"  "; 
+        }
+        
+        if((i+n-1)%7==0){
+            cout<<endl;
+        }
+        
+        
+    }
+    
 }
 
 int exercise_6(int n) {
