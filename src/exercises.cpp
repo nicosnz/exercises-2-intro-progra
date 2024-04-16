@@ -17,25 +17,29 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
+  int finPalabra=0;
+  int inicioPalabra=0;
+   for(int i=0;i<s1.size();i++){
+       if(s1[i]==' ' || i==s1.size()-1){
+           if(i==s1.size()-1){
+            finPalabra=i;    
+           }
+           else{
+               finPalabra=i-1;
+           }
+           
+           cout<<"[";
+            for(int a=inicioPalabra;a<=finPalabra;a++){
+                cout<<s1[a];
+            }
+            cout<<"]"<<endl;
+            inicioPalabra=i+1;
    
 }
 
 
 void exercise_3(string s1) {
-  int visitasRefri=0;
-  for(int i=0; i<s1.size() && visitasRefri<10;  i++){
-        if(s1[i]=='1'){
-            cout<<"Om-nom-nom :P"<<endl;
-            visitasRefri++;  
-            
-        }
-        else if(s1[i]=='0'){
-            cout<<"No cake :("<<endl;
-           
-            break;
-        }
-        
-   }
+ 
 }
 
 
@@ -121,7 +125,15 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+    double Un=1;
+   
+   
+   cout<<"U0"<<" = "<<Un<<endl;
+   for(int n=0;n<10;n++){
+    Un=(Un)/(n+1);
+    cout<<"U"<<n+1<<" = "<<Un<<endl;
+   }
+  
 }
 
 void exercise_12() {
