@@ -209,7 +209,20 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  
+     int cociente=0,residuo;
+   
+   residuo=divident;
+   
+   while(residuo>=divider){
+       residuo-=divider;
+       cociente++;
+       
+       
+       
+       
+   }
+   
+    cout<<cociente<<" "<<residuo<<endl;
 }
 void exercise_17(int n) {
    int i = 0; 
