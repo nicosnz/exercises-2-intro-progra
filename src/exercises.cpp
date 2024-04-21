@@ -80,7 +80,7 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   for(int a=1;a<n;a++){
-        cout<<" ";
+        cout<<"   ";
     }
     
     for(int i=1;i<=k;i++){
@@ -89,7 +89,7 @@ void exercise_5(int n, int k) {
             cout<<"  ";
         } 
         else{
-            cout<<"   "; 
+            cout<<"     "; 
         }
         
         if((i+n-1)%7==0){
