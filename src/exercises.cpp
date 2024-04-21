@@ -179,7 +179,7 @@ else if (b==0){
     MCD=a;
 }
 else{
-    
+
 for(int i=2; i<=a && i<=b;i++){
     if(a%i==0 && b%i ==0){
         MCD=i;
@@ -301,5 +301,38 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  
+  int x=debut,contador=0;
+    if(debut<=0){
+        cout<<"El numero debe de ser positivo y mayor a zero"<<endl;
+    }
+    else if (fin<debut){
+        cout<<"El numero de fin no debe de ser menor al inicial"<<endl;
+    }
+    else{
+         while(debut<=fin ){
+            if(x==0){
+                cout<<debut<<"->"<<contador<<endl;
+                contador=0;
+                debut++;
+                x=debut;
+            }
+            else {
+                if(x % 3 == 0){
+                x=x+4;
+                contador++1;
+                }
+                else if (x%4==0){
+                x=x/2;
+                contador++1;
+                }
+                else { 
+                x--;
+                contador++1;
+                }
+            }
+
+
+        } 
+
+    }
 }
