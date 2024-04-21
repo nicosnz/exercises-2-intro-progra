@@ -83,7 +83,7 @@ string espacio;
     for(int i=1;i<n;i++){
         espacio="   "+espacio;
     }
-    cout<<space;
+    cout<<espacio;
     for (int i=1;i<=k;i++){       
         if(i<10 ){
             if(i==1){
