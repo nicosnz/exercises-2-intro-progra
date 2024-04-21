@@ -188,7 +188,14 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+    double UI = 1;
+    double U = UI;
+    for(int i=1; 10>=i; ++i){
+        int VI = U;
+        double result = UI/(i +1);
+        cout << "U" << i << " = " << UI << " " << "V" << i << " = " << VI << endl;
+        UI = result;
+    }
 }
 
 long exercise_13(int n, int k) {
