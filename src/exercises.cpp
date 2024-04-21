@@ -79,26 +79,48 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  for(int a=1;a<n;a++){
-        cout<<"   ";
+string espacio;
+    for(int i=1;i<n;i++){
+        espacio="   "+espacio;
     }
-    
-    for(int i=1;i<=k;i++){
-        cout<<i;
-        if(i<10){
-            cout<<" ";
-        } 
-        else{
-            cout<<" "; 
+    cout<<space;
+    for (int i=1;i<=k;i++){       
+        if(i<10 ){
+            if(i==1){
+            cout<<" "<<i;
+            espacio=espacio+"  ";
+            }
+            else{
+            cout<<"  "<<i;
+            espacio=espacio+"   ";
+            }
         }
-        
-        if((i+n-1)%7==0){
-            cout<<""<<endl;
+        else if (i>=10){
+              cout<<" "<<i;
+              espacio=espacio+"   ";
+         }       
+               
+        if (i==k)
+         {  cout<<" "<<endl;
+            break;
+         }
+        if((espacio.size())%20==0){
+            if(i+1<10){
+            i=i+1;
+            cout<<endl<<" "<<i;
+            espacio=espacio+"  ";
+            }
+            else{
+            i=i+1;
+            cout<<endl<<i;
+            espacio=espacio+"  ";
+            }
+       
         }
-        
-        
+      
+
+      
     }
-    
 }
 
 int exercise_6(int n) {
