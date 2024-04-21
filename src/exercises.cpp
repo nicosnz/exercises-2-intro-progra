@@ -171,8 +171,23 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+int MCD=1;
+if(a==0){
+    MCD=b;
+}
+else if (b==0){
+    MCD=a;
+}
+else{
+    
+for(int i=2; i<=a && i<=b;i++){
+    if(a%i==0 && b%i ==0){
+        MCD=i;
+    }
+}
+}
+return MCD;
+  
 }
 
 void exercise_11() {
@@ -286,5 +301,5 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+  
 }
