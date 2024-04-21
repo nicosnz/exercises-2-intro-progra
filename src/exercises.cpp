@@ -80,13 +80,13 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   for(int a=1;a<n;a++){
-        cout<<"   ";
+        cout<<" ";
     }
     
     for(int i=1;i<=k;i++){
         cout<<i;
         if(i<10){
-            cout<<"   ";
+            cout<<"  ";
         } 
         else{
             cout<<"   "; 
