@@ -89,7 +89,7 @@ void exercise_5(int n, int k) {
             cout<<"  ";
         } 
         else{
-            cout<<"  "; 
+            cout<<" "; 
         }
         
         if((i+n-1)%7==0){
