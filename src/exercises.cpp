@@ -319,15 +319,15 @@ void exercise_18_19(int debut, int fin) {
             else {
                 if(x % 3 == 0){
                 x=x+4;
-                contador++1;
+                contador++;
                 }
                 else if (x%4==0){
                 x=x/2;
-                contador++1;
+                contador++;
                 }
                 else { 
                 x--;
-                contador++1;
+                contador++;
                 }
             }
 
