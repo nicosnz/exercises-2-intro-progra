@@ -245,29 +245,20 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-    string s=to_string(n);
-    string sinespacio;
-    string resultante;
-    int i=0;
-    
-    
-    for(i=0;i<s.length();i++){
-        if(s[i]!=' '){
-            sinespacio+=s[i];
-        }
-        
-    }
-    
-    for(i=sinespacio.size()-1;i>=0;i--){
-        resultante+=sinespacio[i];
-    }
-    if(sinespacio==resultante){
-        return "Es palindrome";
-    }
-    else{
-        return "No es palindrome";
-    }
-  
+   string result;
+   string s1= to_string(s);
+   
+   
+   for(int i =s1.size()-1;i>=0;i--){
+       result+=s1[i];
+   }
+   
+   if(s1==result){
+       cout<<"Es palindrome"<<endl;
+   }
+   else{
+       cout<<"No es palindrome"<<endl;
+   }
 }
 
 void exercise_15(int decimal) {
