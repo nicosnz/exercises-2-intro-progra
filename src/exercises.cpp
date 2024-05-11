@@ -246,7 +246,7 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
    string result;
-   string s1= to_string(s);
+   string s1= to_string(n);
    
    
    for(int i =s1.size()-1;i>=0;i--){
