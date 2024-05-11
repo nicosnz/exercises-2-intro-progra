@@ -254,10 +254,10 @@ string exercise_14(int n) {
    }
    
    if(s1==result){
-       cout<<"Es palindrome"<<endl;
+       return "Es palindrome";
    }
    else{
-       cout<<"No es palindrome"<<endl;
+       return "No es palindrome";
    }
 }
 
