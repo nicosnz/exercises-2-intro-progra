@@ -40,7 +40,7 @@ void exercise_2(string s1) {
 }
 void exercise_3(string s1) {
     int i= 0;
-    while(i < 20){
+    while(i <= 10){
         if(s1[i]=='1'){
             cout << "Om-nom-nom :P" << endl;
             i++;
